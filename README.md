@@ -1,10 +1,10 @@
 This is implementation of symmetric-key block cipher, designed in 1993 by Bruce Schneier. 
 
-The algorithm can encrypt/decrypt following types:
--Int32 and Int64
--UInt32 and UInt64
--byte array
--string
+The algorithm can encrypt/decrypt following types:  
+-Int32 and Int64  
+-UInt32 and UInt64  
+-byte array  
+-string  
 
 For performance, security or special storage process requirements you can use your methods for converting a string to a byte array and back. Just inject functions to the overrided constructor.
 
